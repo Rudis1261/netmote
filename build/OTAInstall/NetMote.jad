@@ -1,0 +1,90 @@
+RIM-COD-SHA1-9: 18 17 c4 17 63 1d 94 f4 ab 3d f6 18 f5 e4 5a e1 93 df 49 14
+RIM-COD-SHA1-8: 64 48 c7 ab df 12 71 52 53 be 46 a6 4f b8 63 27 41 1e ab 11
+RIM-COD-SHA1-7: a2 c9 67 1f 41 ea 82 3a b2 2e 2a 6b 97 9b ae 09 19 da 4d d1
+RIM-COD-SHA1-6: 2f 66 c0 b7 f9 a6 d4 5a 78 30 c5 56 0a 6e f1 ef 74 d3 80 dd
+RIM-COD-SHA1-5: 78 20 60 f5 a6 87 bf d3 a9 43 2c be bf 21 2e 87 11 3c db 7c
+RIM-COD-SHA1-4: 19 91 cf d2 63 77 20 7c 04 8f 94 99 80 33 28 96 b3 86 e0 bd
+RIM-COD-SHA1-3: 2a dc 5e b1 47 6a e4 ef 12 54 ab b0 7d 0b 60 11 03 29 58 c6
+RIM-COD-SHA1-2: cf 12 52 e4 47 7b 92 12 c1 5a da 8e 36 49 87 16 00 b9 17 24
+RIM-COD-Size-23: 64792
+RIM-COD-SHA1-1: 43 1d 45 77 30 b2 be d8 f5 6c 96 0b 54 18 77 7a b5 91 fa e3
+RIM-COD-Size-22: 55404
+RIM-COD-Size-21: 56588
+RIM-COD-Size-20: 46056
+RIM-COD-URL-19: NetMote-19.cod
+RIM-COD-URL-18: NetMote-18.cod
+RIM-COD-URL-17: NetMote-17.cod
+RIM-COD-URL-16: NetMote-16.cod
+RIM-COD-URL-15: NetMote-15.cod
+RIM-COD-URL-14: NetMote-14.cod
+RIM-COD-URL-13: NetMote-13.cod
+RIM-COD-URL-12: NetMote-12.cod
+RIM-COD-Size: 68472
+RIM-MIDlet-Icon-2-1: ____HOVER_ICON_res/icon/blackberry/icon-80.png,focused
+RIM-COD-URL-11: NetMote-11.cod
+RIM-MIDlet-Icon-Count-2: 1
+RIM-COD-URL-10: NetMote-10.cod
+RIM-MIDlet-Icon-Count-1: 1
+MIDlet-Vendor: Rudi Strydom
+RIM-MIDlet-Icon-1-1: res\icon\blackberry\____HOVER_ICON_icon-80.png,focused
+Manifest-Version: 1.0
+RIM-MIDlet-Flags-1: 0
+RIM-COD-Size-19: 48396
+RIM-COD-Size-18: 22512
+RIM-COD-Size-17: 47584
+RIM-COD-Size-16: 60484
+RIM-COD-Size-15: 53784
+RIM-COD-Size-14: 50284
+RIM-COD-Size-13: 56392
+RIM-COD-Size-12: 50336
+RIM-COD-Size-11: 50324
+RIM-COD-Size-10: 62476
+MIDlet-Version: 1.0.0.0
+MicroEdition-Profile: MIDP-2.0
+RIM-COD-SHA1-23: 27 94 06 77 4f 6b 29 3a 40 9f db 0c 92 e0 86 36 87 90 83 b0
+RIM-COD-SHA1-22: 5e 06 55 85 7e b2 3f 2e 27 7f a5 78 1b 76 82 8d ee 2f e9 2b
+RIM-COD-SHA1-21: a3 48 20 8a 34 71 ac fc 90 83 ed 75 83 94 ef fe 5c 3d 68 ec
+RIM-COD-SHA1-20: 0e ce 98 64 d7 19 07 77 1a 3d b1 de 7f 5f d1 b4 78 39 cf b6
+RIM-COD-URL: NetMote.cod
+RIM-COD-Creation-Time: 1353674286
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: NetMote.jar
+RIM-COD-SHA1-19: 85 f5 af c6 4a fe db 35 43 fa d4 c2 c1 be 9c f3 3e 99 1d 9a
+RIM-COD-SHA1-18: eb 68 40 81 6a 7c 83 bc 00 00 64 19 54 d6 36 a2 e4 dc e8 99
+RIM-COD-SHA1-17: 1a b0 ab 36 31 f5 a5 85 5d 47 fd db e4 db f8 73 da 54 85 19
+RIM-COD-SHA1-16: fe 9c b1 8a d2 ee 51 24 05 99 6f 8a f7 db 34 52 c5 f5 84 b3
+RIM-COD-SHA1-15: 24 ac da 45 15 0c b8 65 ac 78 a5 bc 85 56 1e 7d 26 eb f7 56
+RIM-COD-SHA1-14: a5 e3 f3 f0 2d 2e 23 39 7e 0e 4e f6 71 8a cb 72 ef 4b fa 01
+RIM-COD-SHA1-13: 2d 70 39 f8 07 6f 0e 97 bd bf 4b d3 a9 fe 1a e6 21 71 03 09
+RIM-COD-SHA1-12: f8 62 d2 5b f2 c1 8c 15 45 08 42 29 36 3b 61 f8 47 35 d8 e7
+RIM-COD-Size-9: 64376
+RIM-COD-SHA1-11: 9c ca 59 7a 73 76 2d b0 6c f7 db 11 1b c3 53 45 ce 1c 00 a6
+RIM-COD-Size-8: 64288
+RIM-COD-SHA1-10: 42 f4 f8 e1 32 23 6d 4e cb 4e 0b a5 70 8b 12 d5 04 d6 e8 cf
+RIM-COD-Size-7: 68380
+MIDlet-Description: This application allows you to remotely control the Media of your computer through your Blackberry. It requires an application to be installed on your computer which checks for the commands.
+RIM-COD-Size-6: 64720
+RIM-COD-Size-5: 66368
+RIM-COD-Size-4: 70568
+RIM-COD-Size-3: 70304
+RIM-COD-Size-2: 72800
+RIM-COD-Size-1: 67876
+MIDlet-1: NetMote,res/icon/blackberry/icon-80.png,rim:foreground;WIDGET;
+MIDlet-Name: NetMote
+RIM-COD-SHA1: 2c 40 6b 87 65 07 d6 27 c7 86 47 47 2e 76 e8 3d 33 95 4e 35
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bb_web_jse_api,net_rim_xml_org,net_rim_bb_browser_field2_api,net_rim_os,net_rim_bbapi_push,net_rim_bbapi_messagelist,net_rim_pdap,net_rim_bbapi_mailv2,net_rim_bbapi_phone,net_rim_bbapi_invoke,net_rim_bbapi_browser,net_rim_networkapi,net_rim_bb_browser_field_api,net_rim_xml,net_rim_locationapi
+MIDlet-Jar-Size: 1736602
+RIM-COD-URL-9: NetMote-9.cod
+RIM-COD-URL-8: NetMote-8.cod
+RIM-COD-URL-7: NetMote-7.cod
+RIM-COD-URL-6: NetMote-6.cod
+RIM-COD-URL-5: NetMote-5.cod
+RIM-COD-URL-4: NetMote-4.cod
+RIM-COD-URL-3: NetMote-3.cod
+RIM-COD-URL-2: NetMote-2.cod
+RIM-COD-URL-1: NetMote-1.cod
+RIM-COD-Module-Name: NetMote
+RIM-COD-URL-23: NetMote-23.cod
+RIM-COD-URL-22: NetMote-22.cod
+RIM-COD-URL-21: NetMote-21.cod
+RIM-COD-URL-20: NetMote-20.cod

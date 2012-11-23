@@ -1,0 +1,12 @@
+<loader version="1.0" >
+<application id="NetMote">
+<name>NetMote</name>
+<description>This application allows you to remotely control the Media of your computer through your Blackberry. It requires an application to be installed on your computer which checks for the commands.</description>
+<version>1.0.0.0</version>
+<vendor>Rudi Strydom</vendor>
+<fileset Java="1.45">
+<directory></directory>
+<files>NetMote.cod</files>
+</fileset>
+</application>
+</loader>
