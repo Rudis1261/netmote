@@ -1,5 +1,3 @@
-var uniqueId = 'null';
-
 function onLoad() {
     document.addEventListener("deviceready", onDeviceReady, false);
 }
@@ -9,7 +7,6 @@ function onDeviceReady() {
     // Register the event listener
     document.addEventListener("volumedownbutton", onVolumeDownKeyDown, false);
     document.addEventListener("volumeupbutton", onVolumeUpKeyDown, false);
-    uniqueId = device.uuid;
 }
 
 // Handle the volume down button
@@ -24,10 +21,9 @@ function onVolumeUpKeyDown() {
 
 // Clear the activity display 
 function clear() {	
-    $(".activity").removeClass("alert alert-info alert-warning");       
-};
-
-//$(".activity").addClass("alert alert-info");       
+	$(".activity").removeClass("btn-primary btn-danger");
+	$(".activity-icon").removeClass("icon-white");
+};     
 
 // Lets get some shortcuts going
 $(document).keypress(function(event) {
@@ -36,10 +32,6 @@ $(document).keypress(function(event) {
 	//alert(event.which); // Keep this to check the keys, just uncomment the first section
 	$('[data-keycode="' + event.which + '"]').click();  
 });
-
-function playBeep() {
-    navigator.notification.beep(1);
-}
 
 function showAlert(title, message) {
     navigator.notification.alert(
@@ -79,27 +71,26 @@ function checkConnection() {
     }
     if (networkState == Connection.WIFI)
     {
-	alert("WIFI, so nice!");
+		alert("WIFI, so nice!");
     }
 }
 
+var defaultServer = "http://192.168.1.4:8080";
 
 // When the key is pressed, set it in the DB by running the AJAX
 $(".remoteKeys").click(function(event) {   
-        event.preventDefault();        
-        var keyPressed = $(this).attr('id');
-	checkConnection();
-        //alert(keyPressed);
-        //alert(uniqueId);
-        $.get("http://www.thatguy.co.za/remote.php", { action: 'set', key: keyPressed, uuid: uniqueId },
-        function(data){
-                //alert(data);
-                if (data == 1)
-                {
-		    vibrate(100);
-                } else {
-                    showAlert('Error', 'Command could not be completed');                    
-                }
-                setTimeout(clear, 200);
-        });
+    event.preventDefault();        
+   	var keyPressed = $(this).attr('id');
+	$.get(defaultServer, { command: keyPressed },
+	function(data){
+		if (data == 1)
+		{
+			$(".activity").addClass("btn-primary");
+			$(".activity-icon").addClass("icon-white");
+		} else {
+			$(".activity").addClass("btn-danger");
+			$(".activity-icon").addClass("icon-white");
+		}
+		setTimeout(clear, 200);
+	});
 });
